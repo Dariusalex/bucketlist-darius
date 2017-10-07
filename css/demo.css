@@ -39,6 +39,20 @@ h1,h2,h3,h4,h5,h6 {
 	font-size:100%;
 	font-weight:normal;
 }
+
+#myDIV p{
+	  font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    line-height: 20px;
+    position: relative;
+    font-weight: 400;
+    color: rgba(26,89,120,0.9);
+    text-decoration: underline;
+    
+
+}
+
+
 q:before,q:after {
 	content:'';
 }
@@ -159,5 +173,33 @@ a{
 	color: rgba(104,171,194,1);
 	background: rgba(255,255,255,0.9);
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+
+
+
+.linking{
+	width: 30%;
+    cursor: pointer;
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: 1px solid rgb(28, 108, 122);
+    margin-bottom: 10px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px 3px rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+    -moz-box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px 3px rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+    box-shadow: 0px 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0px 0px 0px 3px rgb(254, 254, 254), 0px 5px 3px 3px rgb(210, 210, 210);
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    padding-left: 79px;
+    margin-left: 118px
 }
 
